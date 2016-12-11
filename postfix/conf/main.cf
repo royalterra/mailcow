@@ -256,3 +256,6 @@ milter_default_action = accept
 
 # Hard-fail missing TLS when enabled for a user
 plaintext_reject_code = 550
+
+# Add headers Id to Outgoing Mail 
+always_add_missing_headers = yes 
